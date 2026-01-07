@@ -1,0 +1,127 @@
+body{
+    background-color: #edefee;
+    font-family: 'Markazi text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    padding-bottom: 10px;
+}
+nav{
+    border:2px solid black ;
+    border-radius: 30px;
+    background-color: #2f2f2f;
+    margin: 0 20px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+}
+nav li{
+    display: inline-block;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+li>a:hover{
+    background-color: bisque;
+    color: brown;
+    text-decoration: underline;
+}
+li>a:focus{
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+li>a:active{
+    background-color: green;
+    color: aliceblue;
+}
+.offer{
+    display: flex;
+    margin: 10px;
+    border-radius: 30px;
+    background-image: url("Little Lemon Logos/Offer image.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-attachment:scroll;
+}
+.offer-div{
+    color: #4B0082;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.offer-div>p{
+    color: #FFF5E1;
+}
+#menu-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+}
+article{
+    flex: 1;
+}
+#tacos,#pizza,#dessert{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid brown;
+    height: 500px;
+}
+#tacos h3,#pizza h3,#dessert h3{
+    color: brown;
+}
+#tacos p,#pizza p,#dessert p{
+    padding-top: 0%;
+    margin-block-start: 0px;
+    color: forestgreen;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+footer img{
+    width: 5rem;
+}   
+#footer-copyright{
+    flex: 1;
+    margin-left: 20%;
+    text-align: right;
+}
+footer hr{
+    border: 1px solid green;
+    margin-bottom: 5px;
+    width: 40%;
+    margin-left: 60%;
+}
+#tacos:hover,#pizza:hover,#dessert:hover{
+    cursor: pointer;
+    transform: translate(50px);
+}

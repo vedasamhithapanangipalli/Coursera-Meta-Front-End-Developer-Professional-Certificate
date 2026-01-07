@@ -1,0 +1,25 @@
+*{
+    background-color: bisque;
+}
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    padding-bottom: 10px;
+}
+hr{
+    border-bottom: 2px solid green;
+}
+h1{
+    color: forestgreen;
+    text-align: center;
+}
+#para{
+    display: flex;
+    border: 2px solid brown;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+}
