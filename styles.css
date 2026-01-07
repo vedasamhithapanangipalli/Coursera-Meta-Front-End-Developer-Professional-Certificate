@@ -56,7 +56,7 @@ li>a:active{
     display: flex;
     margin: 10px;
     border-radius: 30px;
-    background-image: url("Little Lemon Logos/Offer image.jpeg");
+    background-image: url("/images/Offer image.jpeg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -124,4 +124,5 @@ footer hr{
 #tacos:hover,#pizza:hover,#dessert:hover{
     cursor: pointer;
     transform: translate(50px);
+
 }
